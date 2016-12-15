@@ -28,13 +28,13 @@
     "max_preserve_newlines": 2,
     "space_in_paren": false,
     "space_in_empty_paren": false,
-    "jslint_happy": true,
+    "jslint_happy": false,
     "space_after_anon_function": false,
     "keep_array_indentation": true,
     "space_before_conditional": false,
     "wrap_line_length": 0,
     "end_with_newline": true,
-    "comma_first": true
+    "comma_first": false
   },
   "sql": {
     "indent_size": 4,
