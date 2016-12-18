@@ -1,0 +1,44 @@
+@import 'mixins.scss';
+@import 'variables.scss';
+* {
+    // outline: 1px solid red;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 16px;
+    font-family: helvetica, sans-serif;
+    color: rgb(233, 229, 209);
+    background-color: $bkgrndDark; 
+}
+a:-webkit-any-link {
+    cursor: pointer;
+}
+a {
+    cursor: pointer;
+}
+.fade {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: black;
+    -moz-opacity: 0.7;
+    opacity: 0.70;
+    filter: alpha(opacity=70);
+    width: 100vw;
+    height: 100vh;
+    z-index: 90;
+}
+.overlay {
+    color: black;
+    left: 25%;
+    top: 20%;
+    padding: 25px;
+    border: 2px solid black;
+    background-color: #ffffff;
+    z-index: 115;
+    overflow: auto;
+    border-radius: 2px;
+    border: 1px solid #C0C3C5;
+}
